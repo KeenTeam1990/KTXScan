@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0A510B16A4ADCEC51D6EEC0 /* libPods-KTXScan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C49A2764F28696C5FA07295 /* libPods-KTXScan.a */; };
+		DA68823E200CC0F100462427 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA68823D200CC0F100462427 /* main.m */; };
+		DA688241200CC0F100462427 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA688240200CC0F100462427 /* AppDelegate.m */; };
+		DA688244200CC0F100462427 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA688243200CC0F100462427 /* ViewController.m */; };
+		DA688247200CC0F100462427 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA688245200CC0F100462427 /* Main.storyboard */; };
+		DA688249200CC0F100462427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA688248200CC0F100462427 /* Assets.xcassets */; };
+		DA68824C200CC0F100462427 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA68824A200CC0F100462427 /* LaunchScreen.storyboard */; };
+		DA688257200CC0F200462427 /* KTXScanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA688256200CC0F200462427 /* KTXScanTests.m */; };
+		DA688262200CC0F200462427 /* KTXScanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA688261200CC0F200462427 /* KTXScanUITests.m */; };
+		DA6882A0200CC44200462427 /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = DA688273200CC44200462427 /* UIImageView+CornerRadius.m */; };
+		DA6882A1200CC44200462427 /* DemoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA688275200CC44200462427 /* DemoListTableViewController.m */; };
+		DA6882A2200CC44200462427 /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = DA688277200CC44200462427 /* Global.m */; };
+		DA6882A4200CC44200462427 /* UIActionSheet+LBXAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = DA68827C200CC44200462427 /* UIActionSheet+LBXAlertAction.m */; };
+		DA6882A5200CC44200462427 /* UIAlertController+supportedInterfaceOrientations.m in Sources */ = {isa = PBXBuildFile; fileRef = DA68827E200CC44200462427 /* UIAlertController+supportedInterfaceOrientations.m */; };
+		DA6882A6200CC44200462427 /* UIAlertView+LBXAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = DA688280200CC44200462427 /* UIAlertView+LBXAlertAction.m */; };
+		DA6882A7200CC44200462427 /* UIWindow+LBXHierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA688282200CC44200462427 /* UIWindow+LBXHierarchy.m */; };
+		DA6882A8200CC44200462427 /* LBXAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = DA688284200CC44200462427 /* LBXAlertAction.m */; };
+		DA6882A9200CC44200462427 /* LBXPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = DA688287200CC44200462427 /* LBXPermission.m */; };
+		DA6882AA200CC44200462427 /* LBXPermissionCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = DA688289200CC44200462427 /* LBXPermissionCalendar.m */; };
+		DA6882AB200CC44200462427 /* LBXPermissionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = DA68828B200CC44200462427 /* LBXPermissionCamera.m */; };
+		DA6882AC200CC44200462427 /* LBXPermissionContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = DA68828D200CC44200462427 /* LBXPermissionContacts.m */; };
+		DA6882AD200CC44200462427 /* LBXPermissionHealth.m in Sources */ = {isa = PBXBuildFile; fileRef = DA68828F200CC44200462427 /* LBXPermissionHealth.m */; };
+		DA6882AE200CC44200462427 /* LBXPermissionLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = DA688291200CC44200462427 /* LBXPermissionLocation.m */; };
+		DA6882AF200CC44200462427 /* LBXPermissionMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = DA688293200CC44200462427 /* LBXPermissionMicrophone.m */; };
+		DA6882B0200CC44200462427 /* LBXPermissionNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = DA688295200CC44200462427 /* LBXPermissionNetwork.m */; };
+		DA6882B1200CC44200462427 /* LBXPermissionPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = DA688297200CC44200462427 /* LBXPermissionPhotos.m */; };
+		DA6882B2200CC44200462427 /* LBXPermissionReminders.m in Sources */ = {isa = PBXBuildFile; fileRef = DA688299200CC44200462427 /* LBXPermissionReminders.m */; };
+		DA6882B3200CC44200462427 /* LBXPermissionSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = DA68829B200CC44200462427 /* LBXPermissionSetting.m */; };
+		DA6882B4200CC44200462427 /* QQLBXScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA68829D200CC44200462427 /* QQLBXScanViewController.m */; };
+		DA6882B5200CC44200462427 /* StyleDIY.m in Sources */ = {isa = PBXBuildFile; fileRef = DA68829F200CC44200462427 /* StyleDIY.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA688253200CC0F200462427 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA688231200CC0F100462427 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA688238200CC0F100462427;
+			remoteInfo = KTXScan;
+		};
+		DA68825E200CC0F200462427 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA688231200CC0F100462427 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA688238200CC0F100462427;
+			remoteInfo = KTXScan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27A3CFC68B7027C833A677D8 /* Pods-KTXScan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTXScan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KTXScan/Pods-KTXScan.debug.xcconfig"; sourceTree = "<group>"; };
+		4C49A2764F28696C5FA07295 /* libPods-KTXScan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KTXScan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA688239200CC0F100462427 /* KTXScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTXScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA68823D200CC0F100462427 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA68823F200CC0F100462427 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA688240200CC0F100462427 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA688242200CC0F100462427 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA688243200CC0F100462427 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA688246200CC0F100462427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA688248200CC0F100462427 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA68824B200CC0F100462427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA68824D200CC0F100462427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA688252200CC0F200462427 /* KTXScanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTXScanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA688256200CC0F200462427 /* KTXScanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTXScanTests.m; sourceTree = "<group>"; };
+		DA688258200CC0F200462427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA68825D200CC0F200462427 /* KTXScanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTXScanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA688261200CC0F200462427 /* KTXScanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTXScanUITests.m; sourceTree = "<group>"; };
+		DA688263200CC0F200462427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA68826F200CC33000462427 /* KTXScan.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTXScan.pch; sourceTree = "<group>"; };
+		DA688272200CC44200462427 /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
+		DA688273200CC44200462427 /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
+		DA688274200CC44200462427 /* DemoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoListTableViewController.h; sourceTree = "<group>"; };
+		DA688275200CC44200462427 /* DemoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoListTableViewController.m; sourceTree = "<group>"; };
+		DA688276200CC44200462427 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		DA688277200CC44200462427 /* Global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Global.m; sourceTree = "<group>"; };
+		DA68827B200CC44200462427 /* UIActionSheet+LBXAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+LBXAlertAction.h"; sourceTree = "<group>"; };
+		DA68827C200CC44200462427 /* UIActionSheet+LBXAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+LBXAlertAction.m"; sourceTree = "<group>"; };
+		DA68827D200CC44200462427 /* UIAlertController+supportedInterfaceOrientations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+supportedInterfaceOrientations.h"; sourceTree = "<group>"; };
+		DA68827E200CC44200462427 /* UIAlertController+supportedInterfaceOrientations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+supportedInterfaceOrientations.m"; sourceTree = "<group>"; };
+		DA68827F200CC44200462427 /* UIAlertView+LBXAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+LBXAlertAction.h"; sourceTree = "<group>"; };
+		DA688280200CC44200462427 /* UIAlertView+LBXAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+LBXAlertAction.m"; sourceTree = "<group>"; };
+		DA688281200CC44200462427 /* UIWindow+LBXHierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+LBXHierarchy.h"; sourceTree = "<group>"; };
+		DA688282200CC44200462427 /* UIWindow+LBXHierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+LBXHierarchy.m"; sourceTree = "<group>"; };
+		DA688283200CC44200462427 /* LBXAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXAlertAction.h; sourceTree = "<group>"; };
+		DA688284200CC44200462427 /* LBXAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXAlertAction.m; sourceTree = "<group>"; };
+		DA688286200CC44200462427 /* LBXPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermission.h; sourceTree = "<group>"; };
+		DA688287200CC44200462427 /* LBXPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermission.m; sourceTree = "<group>"; };
+		DA688288200CC44200462427 /* LBXPermissionCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionCalendar.h; sourceTree = "<group>"; };
+		DA688289200CC44200462427 /* LBXPermissionCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionCalendar.m; sourceTree = "<group>"; };
+		DA68828A200CC44200462427 /* LBXPermissionCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionCamera.h; sourceTree = "<group>"; };
+		DA68828B200CC44200462427 /* LBXPermissionCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionCamera.m; sourceTree = "<group>"; };
+		DA68828C200CC44200462427 /* LBXPermissionContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionContacts.h; sourceTree = "<group>"; };
+		DA68828D200CC44200462427 /* LBXPermissionContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionContacts.m; sourceTree = "<group>"; };
+		DA68828E200CC44200462427 /* LBXPermissionHealth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionHealth.h; sourceTree = "<group>"; };
+		DA68828F200CC44200462427 /* LBXPermissionHealth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionHealth.m; sourceTree = "<group>"; };
+		DA688290200CC44200462427 /* LBXPermissionLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionLocation.h; sourceTree = "<group>"; };
+		DA688291200CC44200462427 /* LBXPermissionLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionLocation.m; sourceTree = "<group>"; };
+		DA688292200CC44200462427 /* LBXPermissionMicrophone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionMicrophone.h; sourceTree = "<group>"; };
+		DA688293200CC44200462427 /* LBXPermissionMicrophone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionMicrophone.m; sourceTree = "<group>"; };
+		DA688294200CC44200462427 /* LBXPermissionNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionNetwork.h; sourceTree = "<group>"; };
+		DA688295200CC44200462427 /* LBXPermissionNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionNetwork.m; sourceTree = "<group>"; };
+		DA688296200CC44200462427 /* LBXPermissionPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionPhotos.h; sourceTree = "<group>"; };
+		DA688297200CC44200462427 /* LBXPermissionPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionPhotos.m; sourceTree = "<group>"; };
+		DA688298200CC44200462427 /* LBXPermissionReminders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionReminders.h; sourceTree = "<group>"; };
+		DA688299200CC44200462427 /* LBXPermissionReminders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionReminders.m; sourceTree = "<group>"; };
+		DA68829A200CC44200462427 /* LBXPermissionSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionSetting.h; sourceTree = "<group>"; };
+		DA68829B200CC44200462427 /* LBXPermissionSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionSetting.m; sourceTree = "<group>"; };
+		DA68829C200CC44200462427 /* QQLBXScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQLBXScanViewController.h; sourceTree = "<group>"; };
+		DA68829D200CC44200462427 /* QQLBXScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQLBXScanViewController.m; sourceTree = "<group>"; };
+		DA68829E200CC44200462427 /* StyleDIY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleDIY.h; sourceTree = "<group>"; };
+		DA68829F200CC44200462427 /* StyleDIY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleDIY.m; sourceTree = "<group>"; };
+		EA343A52DDA273EA64F04B42 /* Pods-KTXScan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTXScan.release.xcconfig"; path = "Pods/Target Support Files/Pods-KTXScan/Pods-KTXScan.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA688236200CC0F100462427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A510B16A4ADCEC51D6EEC0 /* libPods-KTXScan.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA68824F200CC0F200462427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA68825A200CC0F200462427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3EA11E1945483E398AC16BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C49A2764F28696C5FA07295 /* libPods-KTXScan.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0A21FEBFD442A7266CABF1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27A3CFC68B7027C833A677D8 /* Pods-KTXScan.debug.xcconfig */,
+				EA343A52DDA273EA64F04B42 /* Pods-KTXScan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA688230200CC0F100462427 = {
+			isa = PBXGroup;
+			children = (
+				DA68823B200CC0F100462427 /* KTXScan */,
+				DA688255200CC0F200462427 /* KTXScanTests */,
+				DA688260200CC0F200462427 /* KTXScanUITests */,
+				DA68823A200CC0F100462427 /* Products */,
+				D0A21FEBFD442A7266CABF1A /* Pods */,
+				A3EA11E1945483E398AC16BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA68823A200CC0F100462427 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA688239200CC0F100462427 /* KTXScan.app */,
+				DA688252200CC0F200462427 /* KTXScanTests.xctest */,
+				DA68825D200CC0F200462427 /* KTXScanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA68823B200CC0F100462427 /* KTXScan */ = {
+			isa = PBXGroup;
+			children = (
+				DA688270200CC44200462427 /* lib */,
+				DA68823F200CC0F100462427 /* AppDelegate.h */,
+				DA688240200CC0F100462427 /* AppDelegate.m */,
+				DA688242200CC0F100462427 /* ViewController.h */,
+				DA688243200CC0F100462427 /* ViewController.m */,
+				DA688245200CC0F100462427 /* Main.storyboard */,
+				DA688248200CC0F100462427 /* Assets.xcassets */,
+				DA68824A200CC0F100462427 /* LaunchScreen.storyboard */,
+				DA68824D200CC0F100462427 /* Info.plist */,
+				DA68823C200CC0F100462427 /* Supporting Files */,
+			);
+			path = KTXScan;
+			sourceTree = "<group>";
+		};
+		DA68823C200CC0F100462427 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA68823D200CC0F100462427 /* main.m */,
+				DA68826F200CC33000462427 /* KTXScan.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA688255200CC0F200462427 /* KTXScanTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA688256200CC0F200462427 /* KTXScanTests.m */,
+				DA688258200CC0F200462427 /* Info.plist */,
+			);
+			path = KTXScanTests;
+			sourceTree = "<group>";
+		};
+		DA688260200CC0F200462427 /* KTXScanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA688261200CC0F200462427 /* KTXScanUITests.m */,
+				DA688263200CC0F200462427 /* Info.plist */,
+			);
+			path = KTXScanUITests;
+			sourceTree = "<group>";
+		};
+		DA688270200CC44200462427 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				DA688271200CC44200462427 /* CornerRadiusCategory */,
+				DA688274200CC44200462427 /* DemoListTableViewController.h */,
+				DA688275200CC44200462427 /* DemoListTableViewController.m */,
+				DA688276200CC44200462427 /* Global.h */,
+				DA688277200CC44200462427 /* Global.m */,
+				DA688279200CC44200462427 /* LBXAlertAction */,
+				DA688285200CC44200462427 /* LBXPermissions */,
+				DA68829C200CC44200462427 /* QQLBXScanViewController.h */,
+				DA68829D200CC44200462427 /* QQLBXScanViewController.m */,
+				DA68829E200CC44200462427 /* StyleDIY.h */,
+				DA68829F200CC44200462427 /* StyleDIY.m */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		DA688271200CC44200462427 /* CornerRadiusCategory */ = {
+			isa = PBXGroup;
+			children = (
+				DA688272200CC44200462427 /* UIImageView+CornerRadius.h */,
+				DA688273200CC44200462427 /* UIImageView+CornerRadius.m */,
+			);
+			path = CornerRadiusCategory;
+			sourceTree = "<group>";
+		};
+		DA688279200CC44200462427 /* LBXAlertAction */ = {
+			isa = PBXGroup;
+			children = (
+				DA68827A200CC44200462427 /* Class */,
+				DA688283200CC44200462427 /* LBXAlertAction.h */,
+				DA688284200CC44200462427 /* LBXAlertAction.m */,
+			);
+			path = LBXAlertAction;
+			sourceTree = "<group>";
+		};
+		DA68827A200CC44200462427 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				DA68827B200CC44200462427 /* UIActionSheet+LBXAlertAction.h */,
+				DA68827C200CC44200462427 /* UIActionSheet+LBXAlertAction.m */,
+				DA68827D200CC44200462427 /* UIAlertController+supportedInterfaceOrientations.h */,
+				DA68827E200CC44200462427 /* UIAlertController+supportedInterfaceOrientations.m */,
+				DA68827F200CC44200462427 /* UIAlertView+LBXAlertAction.h */,
+				DA688280200CC44200462427 /* UIAlertView+LBXAlertAction.m */,
+				DA688281200CC44200462427 /* UIWindow+LBXHierarchy.h */,
+				DA688282200CC44200462427 /* UIWindow+LBXHierarchy.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		DA688285200CC44200462427 /* LBXPermissions */ = {
+			isa = PBXGroup;
+			children = (
+				DA688286200CC44200462427 /* LBXPermission.h */,
+				DA688287200CC44200462427 /* LBXPermission.m */,
+				DA688288200CC44200462427 /* LBXPermissionCalendar.h */,
+				DA688289200CC44200462427 /* LBXPermissionCalendar.m */,
+				DA68828A200CC44200462427 /* LBXPermissionCamera.h */,
+				DA68828B200CC44200462427 /* LBXPermissionCamera.m */,
+				DA68828C200CC44200462427 /* LBXPermissionContacts.h */,
+				DA68828D200CC44200462427 /* LBXPermissionContacts.m */,
+				DA68828E200CC44200462427 /* LBXPermissionHealth.h */,
+				DA68828F200CC44200462427 /* LBXPermissionHealth.m */,
+				DA688290200CC44200462427 /* LBXPermissionLocation.h */,
+				DA688291200CC44200462427 /* LBXPermissionLocation.m */,
+				DA688292200CC44200462427 /* LBXPermissionMicrophone.h */,
+				DA688293200CC44200462427 /* LBXPermissionMicrophone.m */,
+				DA688294200CC44200462427 /* LBXPermissionNetwork.h */,
+				DA688295200CC44200462427 /* LBXPermissionNetwork.m */,
+				DA688296200CC44200462427 /* LBXPermissionPhotos.h */,
+				DA688297200CC44200462427 /* LBXPermissionPhotos.m */,
+				DA688298200CC44200462427 /* LBXPermissionReminders.h */,
+				DA688299200CC44200462427 /* LBXPermissionReminders.m */,
+				DA68829A200CC44200462427 /* LBXPermissionSetting.h */,
+				DA68829B200CC44200462427 /* LBXPermissionSetting.m */,
+			);
+			path = LBXPermissions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA688238200CC0F100462427 /* KTXScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA688266200CC0F200462427 /* Build configuration list for PBXNativeTarget "KTXScan" */;
+			buildPhases = (
+				8C26D96B847BF7A9F541A989 /* [CP] Check Pods Manifest.lock */,
+				DA688235200CC0F100462427 /* Sources */,
+				DA688236200CC0F100462427 /* Frameworks */,
+				DA688237200CC0F100462427 /* Resources */,
+				C1134EF4F3B4EA4E3A8EB7EC /* [CP] Embed Pods Frameworks */,
+				D9D3E0BA445CD218DAE91111 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTXScan;
+			productName = KTXScan;
+			productReference = DA688239200CC0F100462427 /* KTXScan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA688251200CC0F200462427 /* KTXScanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA688269200CC0F200462427 /* Build configuration list for PBXNativeTarget "KTXScanTests" */;
+			buildPhases = (
+				DA68824E200CC0F200462427 /* Sources */,
+				DA68824F200CC0F200462427 /* Frameworks */,
+				DA688250200CC0F200462427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA688254200CC0F200462427 /* PBXTargetDependency */,
+			);
+			name = KTXScanTests;
+			productName = KTXScanTests;
+			productReference = DA688252200CC0F200462427 /* KTXScanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA68825C200CC0F200462427 /* KTXScanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA68826C200CC0F200462427 /* Build configuration list for PBXNativeTarget "KTXScanUITests" */;
+			buildPhases = (
+				DA688259200CC0F200462427 /* Sources */,
+				DA68825A200CC0F200462427 /* Frameworks */,
+				DA68825B200CC0F200462427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA68825F200CC0F200462427 /* PBXTargetDependency */,
+			);
+			name = KTXScanUITests;
+			productName = KTXScanUITests;
+			productReference = DA68825D200CC0F200462427 /* KTXScanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA688231200CC0F100462427 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = sae;
+				TargetAttributes = {
+					DA688238200CC0F100462427 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WUWYVL564K;
+						ProvisioningStyle = Automatic;
+					};
+					DA688251200CC0F200462427 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z9EUSLXX48;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA688238200CC0F100462427;
+					};
+					DA68825C200CC0F200462427 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z9EUSLXX48;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA688238200CC0F100462427;
+					};
+				};
+			};
+			buildConfigurationList = DA688234200CC0F100462427 /* Build configuration list for PBXProject "KTXScan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA688230200CC0F100462427;
+			productRefGroup = DA68823A200CC0F100462427 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA688238200CC0F100462427 /* KTXScan */,
+				DA688251200CC0F200462427 /* KTXScanTests */,
+				DA68825C200CC0F200462427 /* KTXScanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA688237200CC0F100462427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA68824C200CC0F100462427 /* LaunchScreen.storyboard in Resources */,
+				DA688249200CC0F100462427 /* Assets.xcassets in Resources */,
+				DA688247200CC0F100462427 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA688250200CC0F200462427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA68825B200CC0F200462427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C26D96B847BF7A9F541A989 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KTXScan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1134EF4F3B4EA4E3A8EB7EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KTXScan/Pods-KTXScan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9D3E0BA445CD218DAE91111 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KTXScan/Pods-KTXScan-resources.sh",
+				"${PODS_ROOT}/LBXScan/LBXScan/UI/CodeScan.bundle",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-back.png",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-help.html",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-helpicons.png",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-samples.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KTXScan/Pods-KTXScan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA688235200CC0F100462427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6882B1200CC44200462427 /* LBXPermissionPhotos.m in Sources */,
+				DA6882A6200CC44200462427 /* UIAlertView+LBXAlertAction.m in Sources */,
+				DA6882B3200CC44200462427 /* LBXPermissionSetting.m in Sources */,
+				DA6882B4200CC44200462427 /* QQLBXScanViewController.m in Sources */,
+				DA6882A9200CC44200462427 /* LBXPermission.m in Sources */,
+				DA6882A5200CC44200462427 /* UIAlertController+supportedInterfaceOrientations.m in Sources */,
+				DA6882AE200CC44200462427 /* LBXPermissionLocation.m in Sources */,
+				DA6882A7200CC44200462427 /* UIWindow+LBXHierarchy.m in Sources */,
+				DA6882A2200CC44200462427 /* Global.m in Sources */,
+				DA6882B0200CC44200462427 /* LBXPermissionNetwork.m in Sources */,
+				DA6882AD200CC44200462427 /* LBXPermissionHealth.m in Sources */,
+				DA6882A4200CC44200462427 /* UIActionSheet+LBXAlertAction.m in Sources */,
+				DA6882B5200CC44200462427 /* StyleDIY.m in Sources */,
+				DA688244200CC0F100462427 /* ViewController.m in Sources */,
+				DA6882A0200CC44200462427 /* UIImageView+CornerRadius.m in Sources */,
+				DA6882AA200CC44200462427 /* LBXPermissionCalendar.m in Sources */,
+				DA6882B2200CC44200462427 /* LBXPermissionReminders.m in Sources */,
+				DA6882A8200CC44200462427 /* LBXAlertAction.m in Sources */,
+				DA688241200CC0F100462427 /* AppDelegate.m in Sources */,
+				DA6882AF200CC44200462427 /* LBXPermissionMicrophone.m in Sources */,
+				DA6882AC200CC44200462427 /* LBXPermissionContacts.m in Sources */,
+				DA68823E200CC0F100462427 /* main.m in Sources */,
+				DA6882AB200CC44200462427 /* LBXPermissionCamera.m in Sources */,
+				DA6882A1200CC44200462427 /* DemoListTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA68824E200CC0F200462427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA688257200CC0F200462427 /* KTXScanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA688259200CC0F200462427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA688262200CC0F200462427 /* KTXScanUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA688254200CC0F200462427 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA688238200CC0F100462427 /* KTXScan */;
+			targetProxy = DA688253200CC0F200462427 /* PBXContainerItemProxy */;
+		};
+		DA68825F200CC0F200462427 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA688238200CC0F100462427 /* KTXScan */;
+			targetProxy = DA68825E200CC0F200462427 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA688245200CC0F100462427 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA688246200CC0F100462427 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA68824A200CC0F100462427 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA68824B200CC0F100462427 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA688264200CC0F200462427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA688265200CC0F200462427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA688267200CC0F200462427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27A3CFC68B7027C833A677D8 /* Pods-KTXScan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WUWYVL564K;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KTXScan/KTXScan.pch";
+				INFOPLIST_FILE = KTXScan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sae.adhoctest.KTXScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA688268200CC0F200462427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA343A52DDA273EA64F04B42 /* Pods-KTXScan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WUWYVL564K;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KTXScan/KTXScan.pch";
+				INFOPLIST_FILE = KTXScan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sae.adhoctest.KTXScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA68826A200CC0F200462427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = KTXScanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sae.adhoctest.KTXScanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTXScan.app/KTXScan";
+			};
+			name = Debug;
+		};
+		DA68826B200CC0F200462427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = KTXScanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sae.adhoctest.KTXScanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTXScan.app/KTXScan";
+			};
+			name = Release;
+		};
+		DA68826D200CC0F200462427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = KTXScanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sae.adhoctest.KTXScanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KTXScan;
+			};
+			name = Debug;
+		};
+		DA68826E200CC0F200462427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z9EUSLXX48;
+				INFOPLIST_FILE = KTXScanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sae.adhoctest.KTXScanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KTXScan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA688234200CC0F100462427 /* Build configuration list for PBXProject "KTXScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA688264200CC0F200462427 /* Debug */,
+				DA688265200CC0F200462427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA688266200CC0F200462427 /* Build configuration list for PBXNativeTarget "KTXScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA688267200CC0F200462427 /* Debug */,
+				DA688268200CC0F200462427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA688269200CC0F200462427 /* Build configuration list for PBXNativeTarget "KTXScanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA68826A200CC0F200462427 /* Debug */,
+				DA68826B200CC0F200462427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA68826C200CC0F200462427 /* Build configuration list for PBXNativeTarget "KTXScanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA68826D200CC0F200462427 /* Debug */,
+				DA68826E200CC0F200462427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA688231200CC0F100462427 /* Project object */;
+}
